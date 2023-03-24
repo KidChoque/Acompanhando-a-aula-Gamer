@@ -1,0 +1,51 @@
+.cadastro-de-equipes {
+    background-image: url(../assets/images/Banner_cadastro_de_Equipe.png);
+    height: 1231px;
+    padding: 82px 20px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.fundo-blur {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+
+}
+
+.background-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to right bottom,rgba(27, 20, 38, .6),rgba(60, 3, 65, .38));
+    backdrop-filter: blur(40px);
+    height: 465px;
+    border-radius: 10px;
+}
+
+.equipe-tittle {
+    padding-bottom: 30px;
+    font-family: "TitilliumWeb-Black";
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.equipe-tittle hr {
+    border-color: #F9AA01;
+    width: 250px;
+    margin-left: 25px;
+}
+
+.imputs-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yellow-buttom-cadastro {
+   width: 272px;
+}
+
+/* Deixa eu commitar porfa */

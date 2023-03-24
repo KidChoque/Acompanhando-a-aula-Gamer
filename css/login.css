@@ -1,45 +1,73 @@
+main {
+    position: relative;
+}
+
+
 .login {
-    width: 100%;
     height: 687px;
+    padding: 82px 20px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(../assets/images/Banner_Login.png);
-    display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 60vh;
-            height: 90vh;
-            margin: 0 auto;
-            background-image: url(assets/images/fundo-login-mobile.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-
-            position: relative;
-            z-index: 0;
 }
 
-.login::before {
-    content: "Eduardo Costa";
-    width: 100%;
-    height: 100%;
+main .login .login-tittle {
+    font-family: "TitilliumWeb-Black";
+    text-transform: uppercase;
+    
+}
+
+.login .background-glass {
+    background-image: linear-gradient(to right bottom,rgba(27, 20, 38, .6),rgba(60, 3, 65, .38));
+    backdrop-filter: blur(40px);
+    height: 465px;
+    border-radius: 10px;
+}
+
+.login .login-tittle hr {
+    width: 90px;
     position: absolute;
-    z-index: 1;
-    background-color:transparent;
-    backdrop-filter: blur(4px);
-    color: white;
+    left: 105px;
+}
+    
+    
+
+.login .login-tittle h1 {
+    text-align: center;
+
 }
 
-.login-form {
+.login .login-tittle {
+    
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    background-image:linear-gradient(to right bottom, rgba(239, 239, 239, .6), rgba(239, 239, 239, .1));
-    backdrop-filter: blur(60px);
-    border: 1px solid white;
-    padding: 5px 10px;
-    font-family:"TitiliumWeb-Regular";
-    font-size: 16px;
-    z-index: 2;
+}
 
+.login .login-tittle hr {
+    border-color: #F9AA01;
+}
+
+.login .inputs {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.login .yellow-button {
+    position: absolute;
+    left: 80px;
+    margin-top: 80px;
+    width: 169px;
+    font-family: "TitilliumWeb-Bold";
+    font-size: 24px;
+    border-radius: 15px;
+    color: #1B1426;
+    background-color: #F9AA01;
+
+    
 }
