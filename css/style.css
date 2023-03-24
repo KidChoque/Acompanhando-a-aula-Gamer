@@ -222,6 +222,29 @@ main .jogos .jogos-flex {
     align-items: center;
 }
 
+.sessao-sobre {
+    background-color: #F9AA01;
+}
+
+.inscricao {
+    height: 1535px;
+    background-color: #F9AA01;
+
+}
+
+.inscricao img {
+    display: flex;
+    
+}
+
+.joguetes {
+    background-image: linear-gradient(to right bottom,rgba(122 ,49 ,236 , 0.2),rgba(47, 7, 109, 0.83));
+    width: 231px;
+    height: 300px;
+    
+}
+
+
 footer {
     padding-top: 60px;
     padding-bottom: 30px;
