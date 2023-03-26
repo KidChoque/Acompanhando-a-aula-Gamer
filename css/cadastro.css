@@ -30,11 +30,6 @@
     
 }
 
-.fundo-blur {
-    background-color: transparent;
-    backdrop-filter: blur(5px);
-
-}
 
 .background-cadastro {
     display: flex;

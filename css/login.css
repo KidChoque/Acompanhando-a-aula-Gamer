@@ -81,10 +81,10 @@ main .login .login-tittle {
         /* border: 3px dotted yellowgreen; */
     }
 
-    .login .login-tittle hr {
-        display: flex;
-        justify-content: center;
-    }
+  .yellow-button {
+    display: flex;
+    justify-content: center;
+  }
 
     }
 
